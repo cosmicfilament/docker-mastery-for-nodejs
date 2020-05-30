@@ -1,0 +1,10 @@
+version: '2.2'
+
+services:
+  hapi:
+    image: assignment-docker
+    init: true
+    build: .
+    ports:
+      - "3000:3000"
+
